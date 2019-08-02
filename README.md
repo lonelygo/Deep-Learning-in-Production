@@ -8,8 +8,10 @@ In this repository, I will share some useful notes and references about deployin
 ## Convert PyTorch Models in Production:
 - [The road to 1.0: production ready PyTorch](https://pytorch.org/2018/05/02/road-to-1.0.html)
 - [PyTorch 1.0 tracing JIT and LibTorch C++ API to integrate PyTorch into NodeJS](http://blog.christianperone.com/2018/10/pytorch-1-0-tracing-jit-and-libtorch-c-api-to-integrate-pytorch-into-nodejs/) [_Good Article_]
+- [Model Serving in PyTorch](https://pytorch.org/blog/model-serving-in-pyorch/)
 - [PyTorch model recognizing hotdogs and not-hotdogs deployed on flask](https://github.com/jaroslaw-weber/hotdog-not-hotdog)
 - [Serving PyTorch 1.0 Models as a Web Server in C++ ](https://github.com/Wizaron/pytorch-cpp-inference) [_Useful Example_]
+- [PyTorch Internals](http://blog.ezyang.com/2019/05/pytorch-internals/)  [_Interesting & Useful Article_]  
 - [Flask application to support pytorch model prediction](https://github.com/craigsidcarlson/PytorchFlaskApp)
 - [Serving PyTorch Model on Flask Thread-Safety](https://discuss.pytorch.org/t/serving-pytorch-model-on-flask-thread-safety/13921)
 - [Serving PyTorch Models on AWS Lambda with Caffe2 & ONNX](https://machinelearnings.co/serving-pytorch-models-on-aws-lambda-with-caffe2-onnx-7b096806cfac)
@@ -76,6 +78,7 @@ In this repository, I will share some useful notes and references about deployin
 - [An introduction to the MXNet API](https://becominghuman.ai/an-introduction-to-the-mxnet-api-part-1-848febdcf8ab) [Very Good Tutorial for Learning MXNet]
 - [GluonCV](https://gluon-cv.mxnet.io/)
 - [GluonNLP](http://gluon-nlp.mxnet.io/)
+- [Model Quantization for Production-Level Neural Network Inference](https://medium.com/apache-mxnet/model-quantization-for-production-level-neural-network-inference-f54462ebba05) [_Excellent_]
 
 ## General Deep Learning Compiler Stack:
 - [TVM Stack](https://tvm.ai/)
@@ -119,6 +122,11 @@ In this repository, I will share some useful notes and references about deployin
 
 ## Mobile Development:
 - [Mobile UI Design Trends In 2018](https://uxplanet.org/mobile-ui-design-trends-in-2018-ccd26031dfd8)  
+- [ncnn - high-performance neural network inference framework optimized for the mobile platform](https://github.com/Tencent/ncnn) [_Useful_]  
+- [Alibaba - MNN](https://github.com/alibaba/MNN)  
+- [Awesome Mobile Machine Learning](https://github.com/fritzlabs/Awesome-Mobile-Machine-Learning)  
+- [EMDL - Embedded and Mobile Deep Learning](https://github.com/EMDL/awesome-emdl)  
+- [Fritz - machine learning platform for iOS and Android](https://www.fritz.ai/)  
 
 ## Back-End Development Part:
 - [Modern Backend Developer in 2018](https://medium.com/tech-tajawal/modern-backend-developer-in-2018-6b3f7b5f8b9)
@@ -126,6 +134,7 @@ In this repository, I will share some useful notes and references about deployin
 - [RabbitMQ](https://www.rabbitmq.com/) [_Message Broker Software_]
 - [Celery](http://www.celeryproject.org/) [_Distributed Task Queue_]
 - [Kafka](https://kafka.apache.org/) [_Distributed Streaming Platform_]
+- [Kubernetes - GitHub](https://github.com/kubernetes/kubernetes)
 - [Jenkins and Kubernetes with Docker Desktop](https://medium.com/@garunski/jenkins-and-kubernetes-with-docker-desktop-53a853486f7c)
 - [Create Cluster using docker swarm](https://medium.com/tech-tajawal/create-cluster-using-docker-swarm-94d7b2a10c43)  
 - [PySyft - A library for encrypted, privacy preserving deep learning](https://github.com/OpenMined/PySyft)  
@@ -137,11 +146,16 @@ In this repository, I will share some useful notes and references about deployin
 - [PyCUDA](https://mathema.tician.de/software/pycuda/)
 - [PyCUDA Tutorial](https://documen.tician.de/pycuda/)
 - [setGPU](https://github.com/bamos/setGPU)
+- [Monitor your GPUs](https://github.com/msalvaris/gpu_monitor) [**Excellent**]  
 
 ## Speed-up & Scalabale Python Codes:
 - [Numba - makes Python code fast](http://numba.pydata.org/)
 - [Dask - natively scales Python](https://dask.org/)
 - [Neural Network Distiller](https://github.com/NervanaSystems/distiller/) [_Distillation & Quantization of Deep Learning Models in PyTorch_]
+- [PocketFlow - An Automatic Model Compression (AutoMC) framework](https://github.com/Tencent/PocketFlow) [**Great**]  
+- [NVIDIA DALI - highly optimized data pre-processing in deep learning](https://github.com/NVIDIA/dali)  
+- [Horovod - Distributed training framework](https://github.com/horovod/horovod)  
+- [ONNX Float32 to Float16](https://github.com/onnx/onnx-docker/blob/master/onnx-ecosystem/converter_scripts/float32_float16_onnx.ipynb)  
 
 ## Other:
 - [Facebook Says Developers Will Love PyTorch 1.0](https://medium.com/syncedreview/facebook-says-developers-will-love-pytorch-1-0-ba2f89ebc9cc)
@@ -156,4 +170,5 @@ In this repository, I will share some useful notes and references about deployin
 - [how you can get a 2–6x speed-up on your data pre-processing with Python](https://towardsdatascience.com/heres-how-you-can-get-a-2-6x-speed-up-on-your-data-pre-processing-with-python-847887e63be5)
 - [Making your C library callable from Python](https://medium.com/@shamir.stav_83310/making-your-c-library-callable-from-python-by-wrapping-it-with-cython-b09db35012a3)
 - [MIL WebDNN](https://mil-tokyo.github.io/webdnn/)
+- [Multi-GPU Framework Comparisons](https://medium.com/@iliakarmanov/multi-gpu-rosetta-stone-d4fa96162986) [_Great_]  
 
